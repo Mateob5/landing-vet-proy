@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Imagen from '../assets/img2.png';
-import Imagen2 from '../assets/img0.png'
+import Imagen2 from '../assets/img0.png';
 export function Nosotros() {
   return (
     <div id='Nosotros'>

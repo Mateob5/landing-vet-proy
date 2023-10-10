@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function SignUp () {
+export function Login () {
   return (
     <div className="min-h-screen bg-white flex items-center justify-center">
-      <h2 className="text-2xl">SignUp</h2>
+      <h2 className="text-2xl">Login</h2>
     </div>
   );
 }

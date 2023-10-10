@@ -1,7 +1,7 @@
 import React from 'react';
-import profile1 from '../assets/profile1.jpg'
-import profile2 from '../assets/profile2.jpg'
-import profile3 from '../assets/profile3.jpg'
+import profile1 from '../assets/profile1.jpg';
+import profile2 from '../assets/profile2.jpg';
+import profile3 from '../assets/profile3.jpg';
 
 export function Testimonios() {
   const testimoniosData = [
@@ -26,8 +26,8 @@ export function Testimonios() {
   ];
 
   return (
-    <div className='pt-6 mt-14' id='Testimonios'>
-      <h2 className='md:text-5xl sm:text-4xl text-4xl font-medium md:py-4 text-center'>Testimonios</h2>
+    <div className="w-full px-4 py-5 bg-white"  id='Testimonios'>
+      <h2 className='md:text-5xl sm:text-4xl text-4xl font-medium md:py-5 my-3 text-center'>Testimonios</h2>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
         {testimoniosData.map((testimonio, index) => (
         <div key={index} className="w-full shadow-xl flex flex-col my-12 mx-8 p-4 rounded-lg">

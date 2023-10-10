@@ -11,7 +11,7 @@ export function Hero() {
                 <Typed
                 className='md:text-3xl sm:text-2xl text-xl font-medium md:pl-4 pl-2'
                 strings={[
-                    'Tui Na',
+                    'Dieta para Mascotas',
                     'Acupuntura',
                     'Moxibustión',
                     'Fitoterapia',
