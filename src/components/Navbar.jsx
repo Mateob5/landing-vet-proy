@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Captura from '../assets/Captura.PNG';
-import { IonIcon } from '@ionic/react';
-import { close, menu } from 'ionicons';
 
 export function Navbar() {
   const Links = [
@@ -31,11 +29,7 @@ export function Navbar() {
         <div className='cursor-pointer flex justify-center'>
           <Link to="/" ><img className='object-fill w-[350px]' src={Captura} alt="Logo" /></Link>
         </div>
-
-        <div className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden' onClick={toggleMenu}>
-          <IonIcon  name={isMenuOpen ? 'close' : 'menu'}></IonIcon>
-        </div>
-
+        
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 md:pr-10 transition-all duration-500 ease-in ${isMenuOpen ? 'top-20' : 'top-[-490px]'}`}>
           {Links.map((link) => (
             <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
